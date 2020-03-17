@@ -1,3 +1,11 @@
+export function MTRK_LOG(text) {
+    console.log(text);
+};
+
+export const MTRK_ACTIONS_RF = "rf";
+
+/*
+
 (function(exports){
 
     exports.MTRK_LOG = function(text){
@@ -135,11 +143,7 @@
     exports.MTRK_SETTINGS_READOUT_OS       = "readout_os";
     exports.MTRK_SETTINGS_SLICES           = "slices"    
 
-    /*
-    exports.test   function(){
-        return 'hello world'
-    };
-    */
-
+  
 })(typeof exports === 'undefined'? this['mtrk_common']={}: exports);
 
+*/
